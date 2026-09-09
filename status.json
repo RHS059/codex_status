@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+04:04",
-  "lastUpdated": "2026-09-09T02:58:56.4616459-05:00",
-  "summary": "Carrier transitions passed 50 tests; Astra 4 Low begins the full behavior roadmap while Astra 2 rebuilds the rejected rifle.",
+  "elapsed": "+04:11",
+  "lastUpdated": "2026-09-09T03:03:59.2472354-05:00",
+  "summary": "Astra 3 Low received a new airborne, drone, naval, support-vehicle, munition, submarine, and tanker asset program.",
   "nodes": [
     {
       "id": "sol",
@@ -20,11 +20,11 @@
       "id": "astra3",
       "title": "Astra 3 · Vehicle",
       "kind": "ASTRA LOW",
-      "status": "COMPLETE",
-      "progress": 100,
-      "eta": "done",
+      "status": "RESEARCHING",
+      "progress": 1,
+      "eta": "first reference set ~25 min",
       "accent": "#8be9fd",
-      "explanation": "Delivered the exact carrier gameplay timing and visibility handoff with all focused checks passing.",
+      "explanation": "Finding authoritative references for airborne equipment, drones, warships, support vehicles, munitions, submarines, and tankers.",
       "x": 380,
       "y": 250
     },
@@ -56,11 +56,11 @@
       "id": "blender",
       "title": "Blender",
       "kind": "RENDER",
-      "status": "IDLE",
-      "progress": 100,
-      "eta": "ready",
+      "status": "QUEUED",
+      "progress": 4,
+      "eta": "after references",
       "accent": "#ffb86c",
-      "explanation": "Validated vehicle and rifle assets are saved; no Blender render is currently active.",
+      "explanation": "Waiting for Astra 3 reference identification before orthographic generation and staged modelling.",
       "x": 230,
       "y": 490
     },
@@ -80,11 +80,11 @@
       "id": "astra2",
       "title": "Astra 2 · Character",
       "kind": "ASTRA LOW",
-      "status": "REBUILDING",
-      "progress": 5,
-      "eta": "silhouette proof ~25 min",
+      "status": "SOURCING",
+      "progress": 9,
+      "eta": "pose decision ~10 min",
       "accent": "#8be9fd",
-      "explanation": "Researching a reusable Rigify rifle pose and rebuilding weapon geometry solely from the supplied source.",
+      "explanation": "Verified Mixamo licensing and Blender Studio alternatives; checking a CC0 rifle-hold animation source.",
       "x": 80,
       "y": 250
     }
@@ -96,7 +96,7 @@
       "b": "astra3",
       "bs": "top",
       "color": "#8be9fd",
-      "active": false
+      "active": true
     },
     {
       "a": "sol",
@@ -112,7 +112,7 @@
       "b": "terra",
       "bs": "left",
       "color": "#8be9fd",
-      "active": false
+      "active": true
     },
     {
       "a": "astra4",
