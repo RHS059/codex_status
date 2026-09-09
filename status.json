@@ -1,42 +1,42 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+03:28",
-  "lastUpdated": "2026-09-09T00:53:54.2174341-05:00",
-  "summary": "Three Extra High agents are building weapons, validating vehicle boarding, and strengthening behavior.",
+  "elapsed": "+03:38",
+  "lastUpdated": "2026-09-09T01:15:54.5551514-05:00",
+  "summary": "Extra High workflows are now validated skills; Astra 2 and Astra 3 continue at Low while Astra 4 Low is queued.",
   "nodes": [
     {
       "id": "sol",
       "title": "Sol Medium",
       "kind": "LIAISON",
-      "status": "COORDINATING",
-      "progress": 86,
+      "status": "ROUTING",
+      "progress": 88,
       "eta": "continuous",
       "accent": "#bd93f9",
-      "explanation": "Coordinates three Extra High workstreams and publishes verified progress to this live dashboard.",
+      "explanation": "Coordinates the lower-usage agents through three validated project skills and their saved handoffs.",
       "x": 530,
       "y": 38
     },
     {
       "id": "astra3",
       "title": "Astra 3 · Vehicle",
-      "kind": "ASTRA EXTRA HIGH",
-      "status": "RENDERING",
-      "progress": 90,
-      "eta": "~8 min",
+      "kind": "ASTRA LOW",
+      "status": "PLANNING",
+      "progress": 32,
+      "eta": "~12 min",
       "accent": "#8be9fd",
-      "explanation": "Rendering occupied fit proofs after 1,360 boarding pose samples passed contact and scrub validation.",
+      "explanation": "Defining safe gameplay timing and visibility for the validated per-seat boarding animations.",
       "x": 380,
       "y": 250
     },
     {
       "id": "astra4",
       "title": "Astra 4 · Behavior",
-      "kind": "ASTRA EXTRA HIGH",
-      "status": "IMPLEMENTING",
-      "progress": 46,
-      "eta": "~25 min",
+      "kind": "ASTRA LOW",
+      "status": "QUEUED",
+      "progress": 0,
+      "eta": "next free slot",
       "accent": "#8be9fd",
-      "explanation": "Adding echelon validation, delayed readiness, truthful mission lifecycle reports, and eight-seat capacity.",
+      "explanation": "Its validated military-AI skill and green handoff are ready for a Low-usage integration review.",
       "x": 680,
       "y": 250
     },
@@ -45,10 +45,10 @@
       "title": "Terra · Release",
       "kind": "TERRA LIGHT",
       "status": "QUEUED",
-      "progress": 28,
-      "eta": "after agents",
+      "progress": 30,
+      "eta": "after handoffs",
       "accent": "#50fa7b",
-      "explanation": "Waiting for the active handoffs before publishing the next dashboard and combined game release.",
+      "explanation": "Waiting to publish the three new skills and the next reviewed game release.",
       "x": 1010,
       "y": 250
     },
@@ -79,12 +79,12 @@
     {
       "id": "astra2",
       "title": "Astra 2 · Character",
-      "kind": "ASTRA EXTRA HIGH",
-      "status": "REFERENCING",
-      "progress": 8,
-      "eta": "first proof ~25 min",
+      "kind": "ASTRA LOW",
+      "status": "REFINING",
+      "progress": 22,
+      "eta": "rifle proof ~15 min",
       "accent": "#8be9fd",
-      "explanation": "Inventorying supplied weapon blends and generating gritty PS2-era orthogonals before modelling the first rifle.",
+      "explanation": "Refining the representative rifle after both hand sockets aligned, then expanding weapon families from the skill.",
       "x": 80,
       "y": 250
     }
@@ -104,7 +104,7 @@
       "b": "astra4",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra3",
@@ -120,7 +120,7 @@
       "b": "terra",
       "bs": "left",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra3",
