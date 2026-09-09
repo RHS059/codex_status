@@ -1,0 +1,130 @@
+{
+  "title": "CODEX STATUS",
+  "elapsed": "+02:58",
+  "lastUpdated": "2026-09-09T00:22:53.6884150-05:00",
+  "summary": "Vehicle seating fit passed; military behavior validation is completing.",
+  "nodes": [
+    {
+      "id": "sol",
+      "title": "Sol Medium",
+      "kind": "LIAISON",
+      "status": "COORDINATING",
+      "progress": 72,
+      "eta": "continuous",
+      "accent": "#bd93f9",
+      "explanation": "Coordinates agents, reviews evidence, updates this dashboard, and prepares the combined release.",
+      "x": 530,
+      "y": 38
+    },
+    {
+      "id": "astra3",
+      "title": "Astra 3 · Vehicle",
+      "kind": "ASTRA HIGH",
+      "status": "ANIMATING",
+      "progress": 68,
+      "eta": "~22 min",
+      "accent": "#8be9fd",
+      "explanation": "Authoring eight seat-specific mount and dismount tracks after the corrected cabin passed fit checks.",
+      "x": 190,
+      "y": 250
+    },
+    {
+      "id": "astra4",
+      "title": "Astra 4 · Behavior",
+      "kind": "ASTRA HIGH",
+      "status": "COMPLETE",
+      "progress": 100,
+      "eta": "done",
+      "accent": "#8be9fd",
+      "explanation": "Delivered the hierarchical behavior slice with all 21 focused and simulation tests passing.",
+      "x": 530,
+      "y": 250
+    },
+    {
+      "id": "terra",
+      "title": "Terra · Release",
+      "kind": "TERRA LIGHT",
+      "status": "QUEUED",
+      "progress": 18,
+      "eta": "after agents",
+      "accent": "#50fa7b",
+      "explanation": "Waiting for completed handoffs before versioning, committing, opening the pull request, and merging.",
+      "x": 870,
+      "y": 250
+    },
+    {
+      "id": "blender",
+      "title": "Blender",
+      "kind": "RENDER",
+      "status": "ANIMATING",
+      "progress": 72,
+      "eta": "~18 min",
+      "accent": "#ffb86c",
+      "explanation": "Rendering measured seating comparisons and the corrected troop-carrier cabin.",
+      "x": 190,
+      "y": 490
+    },
+    {
+      "id": "github",
+      "title": "GitHub",
+      "kind": "DELIVERY",
+      "status": "WAITING",
+      "progress": 8,
+      "eta": "after validation",
+      "accent": "#f8f8f2",
+      "explanation": "Will receive one reviewed pull request after the active workstreams pass validation.",
+      "x": 870,
+      "y": 490
+    }
+  ],
+  "links": [
+    {
+      "a": "sol",
+      "as": "bottom",
+      "b": "astra3",
+      "bs": "top",
+      "color": "#8be9fd",
+      "active": true
+    },
+    {
+      "a": "sol",
+      "as": "bottom",
+      "b": "astra4",
+      "bs": "top",
+      "color": "#8be9fd",
+      "active": true
+    },
+    {
+      "a": "astra3",
+      "as": "right",
+      "b": "terra",
+      "bs": "left",
+      "color": "#8be9fd",
+      "active": true
+    },
+    {
+      "a": "astra4",
+      "as": "right",
+      "b": "terra",
+      "bs": "left",
+      "color": "#8be9fd",
+      "active": true
+    },
+    {
+      "a": "astra3",
+      "as": "bottom",
+      "b": "blender",
+      "bs": "top",
+      "color": "#ffb86c",
+      "active": true
+    },
+    {
+      "a": "terra",
+      "as": "bottom",
+      "b": "github",
+      "bs": "top",
+      "color": "#50fa7b",
+      "active": false
+    }
+  ]
+}
