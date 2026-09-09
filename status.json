@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+04:11",
-  "lastUpdated": "2026-09-09T03:03:59.2472354-05:00",
-  "summary": "Astra 3 Low received a new airborne, drone, naval, support-vehicle, munition, submarine, and tanker asset program.",
+  "elapsed": "+04:12",
+  "lastUpdated": "2026-09-09T03:04:51.4817682-05:00",
+  "summary": "Independent echelon planners passed 36 tests; Astra 4 moves to simultaneous fronts while Astra 3 starts the new asset program.",
   "nodes": [
     {
       "id": "sol",
@@ -32,11 +32,11 @@
       "id": "astra4",
       "title": "Astra 4 · Behavior",
       "kind": "ASTRA LOW",
-      "status": "PLANNING",
-      "progress": 6,
-      "eta": "milestone 1 ~45 min",
+      "status": "FRONTS",
+      "progress": 19,
+      "eta": "milestone 2 ~40 min",
       "accent": "#8be9fd",
-      "explanation": "Carrier transitions are green; building independent echelon planners and succession as the next behavior milestone.",
+      "explanation": "Independent headquarters and hop-by-hop intent are green; implementing simultaneous fronts and reserves.",
       "x": 680,
       "y": 250
     },
