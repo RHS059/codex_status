@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+03:59",
-  "lastUpdated": "2026-09-09T02:54:51.7825952-05:00",
-  "summary": "Astra 2 is searching for a reusable Rigify rifle pose; Astra 4 is scope-locked to final regressions and handoff.",
+  "elapsed": "+04:04",
+  "lastUpdated": "2026-09-09T02:58:56.4616459-05:00",
+  "summary": "Carrier transitions passed 50 tests; Astra 4 Low begins the full behavior roadmap while Astra 2 rebuilds the rejected rifle.",
   "nodes": [
     {
       "id": "sol",
@@ -32,11 +32,11 @@
       "id": "astra4",
       "title": "Astra 4 · Behavior",
       "kind": "ASTRA LOW",
-      "status": "FINALIZING",
-      "progress": 78,
-      "eta": "~10 min",
+      "status": "PLANNING",
+      "progress": 6,
+      "eta": "milestone 1 ~45 min",
       "accent": "#8be9fd",
-      "explanation": "Running cancellation and movement regressions, then stopping with an exact integration handoff.",
+      "explanation": "Carrier transitions are green; building independent echelon planners and succession as the next behavior milestone.",
       "x": 680,
       "y": 250
     },
@@ -44,11 +44,11 @@
       "id": "terra",
       "title": "Terra · Release",
       "kind": "TERRA LIGHT",
-      "status": "PUBLISHING",
-      "progress": 48,
-      "eta": "~3 min",
+      "status": "QUEUED",
+      "progress": 34,
+      "eta": "after validation",
       "accent": "#50fa7b",
-      "explanation": "Publishing the pose-search decision and Astra 4 scope lock.",
+      "explanation": "Will commit, open, merge, and verify the game release after all behavior milestones and app checks pass.",
       "x": 1010,
       "y": 250
     },
@@ -68,11 +68,11 @@
       "id": "github",
       "title": "GitHub",
       "kind": "DELIVERY",
-      "status": "UPDATING",
-      "progress": 76,
-      "eta": "~3 min",
+      "status": "LIVE",
+      "progress": 100,
+      "eta": "online",
       "accent": "#f8f8f2",
-      "explanation": "Deploying the latest rejection and rebuild status through GitHub Pages.",
+      "explanation": "Serving the latest agent milestones with automatic in-page refresh.",
       "x": 1010,
       "y": 490
     },
@@ -80,11 +80,11 @@
       "id": "astra2",
       "title": "Astra 2 · Character",
       "kind": "ASTRA LOW",
-      "status": "SEARCHING",
-      "progress": 7,
-      "eta": "pose source ~10 min",
+      "status": "REBUILDING",
+      "progress": 5,
+      "eta": "silhouette proof ~25 min",
       "accent": "#8be9fd",
-      "explanation": "Searching licensed Rigify or retargetable rifle-hold poses before rebuilding from source geometry.",
+      "explanation": "Researching a reusable Rigify rifle pose and rebuilding weapon geometry solely from the supplied source.",
       "x": 80,
       "y": 250
     }
@@ -136,7 +136,7 @@
       "b": "github",
       "bs": "top",
       "color": "#50fa7b",
-      "active": true
+      "active": false
     },
     {
       "a": "sol",
