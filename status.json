@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+04:24",
-  "lastUpdated": "2026-09-09T03:25:35.0414782-05:00",
-  "summary": "Astra 4 passed 67 tests across six behavior milestones and is in final integration review; Astra 3 has the exact Roadrunner reference.",
+  "elapsed": "+04:32",
+  "lastUpdated": "2026-09-09T08:18:33.6992079-05:00",
+  "summary": "Astra 3 completed seven airborne/drone assets; Astra 4 completed six behavior milestones and a passing production build.",
   "nodes": [
     {
       "id": "sol",
@@ -20,11 +20,11 @@
       "id": "astra3",
       "title": "Astra 3 · Vehicle",
       "kind": "ASTRA LOW",
-      "status": "ORTHOS",
-      "progress": 10,
-      "eta": "first corrected set ~18 min",
+      "status": "CHECKPOINT",
+      "progress": 32,
+      "eta": "next family queued",
       "accent": "#8be9fd",
-      "explanation": "Using the supplied Roadrunner image, an unarmed quadcopter, and a Ukrainian-style AT-warhead FPV quadcopter as distinct references.",
+      "explanation": "Validated seven editable airborne/drone assets and 28 renders; static first passes need later detail and animation.",
       "x": 380,
       "y": 250
     },
@@ -32,11 +32,11 @@
       "id": "astra4",
       "title": "Astra 4 · Behavior",
       "kind": "ASTRA LOW",
-      "status": "REVIEWING",
-      "progress": 95,
-      "eta": "final handoff ~10 min",
+      "status": "HANDOFF",
+      "progress": 96,
+      "eta": "browser review pending",
       "accent": "#8be9fd",
-      "explanation": "All six behavior milestones pass 67 tests; reviewing integration and saving the expanded handoff.",
+      "explanation": "Six milestones pass 68 focused tests and production build; full suite is 133/143 with ten documented failures.",
       "x": 680,
       "y": 250
     },
@@ -44,11 +44,11 @@
       "id": "terra",
       "title": "Terra · Release",
       "kind": "TERRA LIGHT",
-      "status": "QUEUED",
-      "progress": 38,
-      "eta": "after validation",
+      "status": "PUBLISHING",
+      "progress": 72,
+      "eta": "~3 min",
       "accent": "#50fa7b",
-      "explanation": "Will commit, open, merge, and verify the game release after all behavior milestones and app checks pass.",
+      "explanation": "Publishing authorized queued events; the game release still awaits browser acceptance and failure review.",
       "x": 1010,
       "y": 250
     },
@@ -56,11 +56,11 @@
       "id": "blender",
       "title": "Blender",
       "kind": "RENDER",
-      "status": "QUEUED",
-      "progress": 4,
-      "eta": "after references",
+      "status": "CHECKPOINT",
+      "progress": 32,
+      "eta": "ready",
       "accent": "#ffb86c",
-      "explanation": "Waiting for Astra 3 reference identification before orthographic generation and staged modelling.",
+      "explanation": "Seven reopened Blender sources match their GLB exports and preserve named mount hierarchies.",
       "x": 230,
       "y": 490
     },
@@ -68,11 +68,11 @@
       "id": "github",
       "title": "GitHub",
       "kind": "DELIVERY",
-      "status": "LIVE",
-      "progress": 100,
-      "eta": "online",
+      "status": "UPDATING",
+      "progress": 84,
+      "eta": "~3 min",
       "accent": "#f8f8f2",
-      "explanation": "Serving the latest agent milestones with automatic in-page refresh.",
+      "explanation": "Deploying the authorized Roadrunner, airborne, and behavior milestone updates.",
       "x": 1010,
       "y": 490
     },
@@ -128,7 +128,7 @@
       "b": "blender",
       "bs": "top",
       "color": "#ffb86c",
-      "active": true
+      "active": false
     },
     {
       "a": "terra",
@@ -136,7 +136,7 @@
       "b": "github",
       "bs": "top",
       "color": "#50fa7b",
-      "active": false
+      "active": true
     },
     {
       "a": "sol",
