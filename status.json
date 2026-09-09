@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+04:15",
-  "lastUpdated": "2026-09-09T03:08:19.9835916-05:00",
-  "summary": "Two simultaneous fronts and reserve release passed 38 tests; Astra 4 moves to data-driven ORBAT and doctrine.",
+  "elapsed": "+04:22",
+  "lastUpdated": "2026-09-09T03:23:08.0574797-05:00",
+  "summary": "Astra 3 received the exact Roadrunner reference and corrected both drone briefs; Astra 4 is in final behavior tuning.",
   "nodes": [
     {
       "id": "sol",
@@ -20,11 +20,11 @@
       "id": "astra3",
       "title": "Astra 3 · Vehicle",
       "kind": "ASTRA LOW",
-      "status": "RESEARCHING",
-      "progress": 1,
-      "eta": "first reference set ~25 min",
+      "status": "ORTHOS",
+      "progress": 10,
+      "eta": "first corrected set ~18 min",
       "accent": "#8be9fd",
-      "explanation": "Finding authoritative references for airborne equipment, drones, warships, support vehicles, munitions, submarines, and tankers.",
+      "explanation": "Using the supplied Roadrunner image, an unarmed quadcopter, and a Ukrainian-style AT-warhead FPV quadcopter as distinct references.",
       "x": 380,
       "y": 250
     },
@@ -32,11 +32,11 @@
       "id": "astra4",
       "title": "Astra 4 · Behavior",
       "kind": "ASTRA LOW",
-      "status": "ORBAT",
-      "progress": 34,
-      "eta": "milestone 3 ~40 min",
+      "status": "TUNING",
+      "progress": 86,
+      "eta": "final harness ~15 min",
       "accent": "#8be9fd",
-      "explanation": "Front allocation and threatened-base reserves are green; adding validated scenario organization and doctrine data.",
+      "explanation": "ORBAT, support allocation, and deception are green through 47 checks; final tuning and regression harness are running.",
       "x": 680,
       "y": 250
     },
@@ -45,7 +45,7 @@
       "title": "Terra · Release",
       "kind": "TERRA LIGHT",
       "status": "QUEUED",
-      "progress": 34,
+      "progress": 38,
       "eta": "after validation",
       "accent": "#50fa7b",
       "explanation": "Will commit, open, merge, and verify the game release after all behavior milestones and app checks pass.",
@@ -128,7 +128,7 @@
       "b": "blender",
       "bs": "top",
       "color": "#ffb86c",
-      "active": false
+      "active": true
     },
     {
       "a": "terra",
@@ -144,7 +144,7 @@
       "b": "astra2",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra2",
@@ -152,7 +152,7 @@
       "b": "terra",
       "bs": "left",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra2",
@@ -160,7 +160,7 @@
       "b": "blender",
       "bs": "top",
       "color": "#ffb86c",
-      "active": true
+      "active": false
     }
   ]
 }
