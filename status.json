@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+03:49",
-  "lastUpdated": "2026-09-09T02:50:04.4664731-05:00",
-  "summary": "Rifle r2 and vehicle integration design reached checkpoints; Astra 4 Low started gameplay integration.",
+  "elapsed": "+03:59",
+  "lastUpdated": "2026-09-09T02:54:51.7825952-05:00",
+  "summary": "Astra 2 is searching for a reusable Rigify rifle pose; Astra 4 is scope-locked to final regressions and handoff.",
   "nodes": [
     {
       "id": "sol",
@@ -32,11 +32,11 @@
       "id": "astra4",
       "title": "Astra 4 · Behavior",
       "kind": "ASTRA LOW",
-      "status": "INTEGRATING",
-      "progress": 12,
-      "eta": "~30 min",
+      "status": "FINALIZING",
+      "progress": 78,
+      "eta": "~10 min",
       "accent": "#8be9fd",
-      "explanation": "Implementing per-seat embark and disembark timing, identity, visibility, and duplication prevention.",
+      "explanation": "Running cancellation and movement regressions, then stopping with an exact integration handoff.",
       "x": 680,
       "y": 250
     },
@@ -45,10 +45,10 @@
       "title": "Terra · Release",
       "kind": "TERRA LIGHT",
       "status": "PUBLISHING",
-      "progress": 56,
+      "progress": 48,
       "eta": "~3 min",
       "accent": "#50fa7b",
-      "explanation": "Publishing this checkpoint and preserving the game release queue.",
+      "explanation": "Publishing the pose-search decision and Astra 4 scope lock.",
       "x": 1010,
       "y": 250
     },
@@ -69,10 +69,10 @@
       "title": "GitHub",
       "kind": "DELIVERY",
       "status": "UPDATING",
-      "progress": 82,
+      "progress": 76,
       "eta": "~3 min",
       "accent": "#f8f8f2",
-      "explanation": "Deploying the latest automatic dashboard checkpoint through GitHub Pages.",
+      "explanation": "Deploying the latest rejection and rebuild status through GitHub Pages.",
       "x": 1010,
       "y": 490
     },
@@ -80,11 +80,11 @@
       "id": "astra2",
       "title": "Astra 2 · Character",
       "kind": "ASTRA LOW",
-      "status": "CHECKPOINT",
-      "progress": 31,
-      "eta": "awaiting next pass",
+      "status": "SEARCHING",
+      "progress": 7,
+      "eta": "pose source ~10 min",
       "accent": "#8be9fd",
-      "explanation": "Validated the 5,260-triangle rifle r2; soldier finger wrapping remains provisional before family expansion.",
+      "explanation": "Searching licensed Rigify or retargetable rifle-hold poses before rebuilding from source geometry.",
       "x": 80,
       "y": 250
     }
@@ -144,7 +144,7 @@
       "b": "astra2",
       "bs": "top",
       "color": "#8be9fd",
-      "active": false
+      "active": true
     },
     {
       "a": "astra2",
@@ -152,7 +152,7 @@
       "b": "terra",
       "bs": "left",
       "color": "#8be9fd",
-      "active": false
+      "active": true
     },
     {
       "a": "astra2",
@@ -160,7 +160,7 @@
       "b": "blender",
       "bs": "top",
       "color": "#ffb86c",
-      "active": false
+      "active": true
     }
   ]
 }
