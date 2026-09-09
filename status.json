@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+02:58",
-  "lastUpdated": "2026-09-09T00:22:53.6884150-05:00",
-  "summary": "Vehicle seating fit passed; military behavior validation is completing.",
+  "elapsed": "+03:04",
+  "lastUpdated": "2026-09-09T00:28:23.7667780-05:00",
+  "summary": "Status dashboard is publishing while vehicle boarding animations continue.",
   "nodes": [
     {
       "id": "sol",
@@ -44,11 +44,11 @@
       "id": "terra",
       "title": "Terra · Release",
       "kind": "TERRA LIGHT",
-      "status": "QUEUED",
-      "progress": 18,
-      "eta": "after agents",
+      "status": "PUBLISHING",
+      "progress": 58,
+      "eta": "~5 min",
       "accent": "#50fa7b",
-      "explanation": "Waiting for completed handoffs before versioning, committing, opening the pull request, and merging.",
+      "explanation": "Publishing this dashboard to GitHub Pages, then returning to the combined game release queue.",
       "x": 870,
       "y": 250
     },
@@ -68,11 +68,11 @@
       "id": "github",
       "title": "GitHub",
       "kind": "DELIVERY",
-      "status": "WAITING",
-      "progress": 8,
-      "eta": "after validation",
+      "status": "DEPLOYING",
+      "progress": 45,
+      "eta": "~5 min",
       "accent": "#f8f8f2",
-      "explanation": "Will receive one reviewed pull request after the active workstreams pass validation.",
+      "explanation": "Receiving the standalone public status page and preparing its Pages deployment.",
       "x": 870,
       "y": 490
     }
@@ -124,7 +124,7 @@
       "b": "github",
       "bs": "top",
       "color": "#50fa7b",
-      "active": false
+      "active": true
     }
   ]
 }
