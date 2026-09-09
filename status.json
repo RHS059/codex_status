@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+04:22",
-  "lastUpdated": "2026-09-09T03:23:08.0574797-05:00",
-  "summary": "Astra 3 received the exact Roadrunner reference and corrected both drone briefs; Astra 4 is in final behavior tuning.",
+  "elapsed": "+04:24",
+  "lastUpdated": "2026-09-09T03:25:35.0414782-05:00",
+  "summary": "Astra 4 passed 67 tests across six behavior milestones and is in final integration review; Astra 3 has the exact Roadrunner reference.",
   "nodes": [
     {
       "id": "sol",
@@ -32,11 +32,11 @@
       "id": "astra4",
       "title": "Astra 4 · Behavior",
       "kind": "ASTRA LOW",
-      "status": "TUNING",
-      "progress": 86,
-      "eta": "final harness ~15 min",
+      "status": "REVIEWING",
+      "progress": 95,
+      "eta": "final handoff ~10 min",
       "accent": "#8be9fd",
-      "explanation": "ORBAT, support allocation, and deception are green through 47 checks; final tuning and regression harness are running.",
+      "explanation": "All six behavior milestones pass 67 tests; reviewing integration and saving the expanded handoff.",
       "x": 680,
       "y": 250
     },
