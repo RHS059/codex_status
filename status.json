@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+04:12",
-  "lastUpdated": "2026-09-09T03:04:51.4817682-05:00",
-  "summary": "Independent echelon planners passed 36 tests; Astra 4 moves to simultaneous fronts while Astra 3 starts the new asset program.",
+  "elapsed": "+04:15",
+  "lastUpdated": "2026-09-09T03:08:19.9835916-05:00",
+  "summary": "Two simultaneous fronts and reserve release passed 38 tests; Astra 4 moves to data-driven ORBAT and doctrine.",
   "nodes": [
     {
       "id": "sol",
@@ -32,11 +32,11 @@
       "id": "astra4",
       "title": "Astra 4 · Behavior",
       "kind": "ASTRA LOW",
-      "status": "FRONTS",
-      "progress": 19,
-      "eta": "milestone 2 ~40 min",
+      "status": "ORBAT",
+      "progress": 34,
+      "eta": "milestone 3 ~40 min",
       "accent": "#8be9fd",
-      "explanation": "Independent headquarters and hop-by-hop intent are green; implementing simultaneous fronts and reserves.",
+      "explanation": "Front allocation and threatened-base reserves are green; adding validated scenario organization and doctrine data.",
       "x": 680,
       "y": 250
     },
