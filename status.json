@@ -1,18 +1,18 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+03:23",
-  "lastUpdated": "2026-09-09T00:48:59.4395928-05:00",
-  "summary": "Publishing infinite canvas controls while two Extra High agents validate vehicles and behavior.",
+  "elapsed": "+03:28",
+  "lastUpdated": "2026-09-09T00:53:54.2174341-05:00",
+  "summary": "Three Extra High agents are building weapons, validating vehicle boarding, and strengthening behavior.",
   "nodes": [
     {
       "id": "sol",
       "title": "Sol Medium",
       "kind": "LIAISON",
-      "status": "DASHBOARD",
-      "progress": 84,
-      "eta": "~5 min",
+      "status": "COORDINATING",
+      "progress": 86,
+      "eta": "continuous",
       "accent": "#bd93f9",
-      "explanation": "Publishing infinite pan and zoom plus animated card and super-bar status transitions.",
+      "explanation": "Coordinates three Extra High workstreams and publishes verified progress to this live dashboard.",
       "x": 530,
       "y": 38
     },
@@ -20,11 +20,11 @@
       "id": "astra3",
       "title": "Astra 3 · Vehicle",
       "kind": "ASTRA EXTRA HIGH",
-      "status": "VALIDATING",
-      "progress": 78,
-      "eta": "~15 min",
+      "status": "RENDERING",
+      "progress": 90,
+      "eta": "~8 min",
       "accent": "#8be9fd",
-      "explanation": "Validating canonical soldier contact poses, eight-seat GLB playback, and model-viewer integration.",
+      "explanation": "Rendering occupied fit proofs after 1,360 boarding pose samples passed contact and scrub validation.",
       "x": 380,
       "y": 250
     },
@@ -32,11 +32,11 @@
       "id": "astra4",
       "title": "Astra 4 · Behavior",
       "kind": "ASTRA EXTRA HIGH",
-      "status": "AUDITING",
-      "progress": 18,
-      "eta": "~35 min",
+      "status": "IMPLEMENTING",
+      "progress": 46,
+      "eta": "~25 min",
       "accent": "#8be9fd",
-      "explanation": "Auditing phase-one military behavior and closing the highest-value command-and-control gap.",
+      "explanation": "Adding echelon validation, delayed readiness, truthful mission lifecycle reports, and eight-seat capacity.",
       "x": 680,
       "y": 250
     },
@@ -44,11 +44,11 @@
       "id": "terra",
       "title": "Terra · Release",
       "kind": "TERRA LIGHT",
-      "status": "PUBLISHING",
-      "progress": 76,
-      "eta": "~5 min",
+      "status": "QUEUED",
+      "progress": 28,
+      "eta": "after agents",
       "accent": "#50fa7b",
-      "explanation": "Publishing the infinite node canvas and live transition animation update to GitHub Pages.",
+      "explanation": "Waiting for the active handoffs before publishing the next dashboard and combined game release.",
       "x": 1010,
       "y": 250
     },
@@ -68,11 +68,11 @@
       "id": "github",
       "title": "GitHub",
       "kind": "DELIVERY",
-      "status": "DEPLOYING",
-      "progress": 70,
-      "eta": "~5 min",
+      "status": "LIVE",
+      "progress": 100,
+      "eta": "online",
       "accent": "#f8f8f2",
-      "explanation": "Deploying the final status-page interaction update through GitHub Pages.",
+      "explanation": "Serving the infinite live dashboard from GitHub Pages with automatic in-page refresh.",
       "x": 1010,
       "y": 490
     },
@@ -80,11 +80,11 @@
       "id": "astra2",
       "title": "Astra 2 · Character",
       "kind": "ASTRA EXTRA HIGH",
-      "status": "QUEUED",
-      "progress": 4,
-      "eta": "after deploy",
+      "status": "REFERENCING",
+      "progress": 8,
+      "eta": "first proof ~25 min",
       "accent": "#8be9fd",
-      "explanation": "Queued to generate gritty low-poly weapon orthogonals and model the full requested weapon set.",
+      "explanation": "Inventorying supplied weapon blends and generating gritty PS2-era orthogonals before modelling the first rifle.",
       "x": 80,
       "y": 250
     }
@@ -136,7 +136,7 @@
       "b": "github",
       "bs": "top",
       "color": "#50fa7b",
-      "active": true
+      "active": false
     },
     {
       "a": "sol",
@@ -144,7 +144,7 @@
       "b": "astra2",
       "bs": "top",
       "color": "#8be9fd",
-      "active": false
+      "active": true
     },
     {
       "a": "astra2",
@@ -152,7 +152,7 @@
       "b": "terra",
       "bs": "left",
       "color": "#8be9fd",
-      "active": false
+      "active": true
     },
     {
       "a": "astra2",
@@ -160,7 +160,7 @@
       "b": "blender",
       "bs": "top",
       "color": "#ffb86c",
-      "active": false
+      "active": true
     }
   ]
 }
