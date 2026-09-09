@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+03:04",
-  "lastUpdated": "2026-09-09T00:28:23.7667780-05:00",
-  "summary": "Status dashboard is publishing while vehicle boarding animations continue.",
+  "elapsed": "+03:13",
+  "lastUpdated": "2026-09-09T00:33:58.3367615-05:00",
+  "summary": "Vehicle boarding animations continue; character rig and behavior phase one are complete.",
   "nodes": [
     {
       "id": "sol",
@@ -25,7 +25,7 @@
       "eta": "~22 min",
       "accent": "#8be9fd",
       "explanation": "Authoring eight seat-specific mount and dismount tracks after the corrected cabin passed fit checks.",
-      "x": 190,
+      "x": 380,
       "y": 250
     },
     {
@@ -37,7 +37,7 @@
       "eta": "done",
       "accent": "#8be9fd",
       "explanation": "Delivered the hierarchical behavior slice with all 21 focused and simulation tests passing.",
-      "x": 530,
+      "x": 680,
       "y": 250
     },
     {
@@ -49,7 +49,7 @@
       "eta": "~5 min",
       "accent": "#50fa7b",
       "explanation": "Publishing this dashboard to GitHub Pages, then returning to the combined game release queue.",
-      "x": 870,
+      "x": 1010,
       "y": 250
     },
     {
@@ -61,7 +61,7 @@
       "eta": "~18 min",
       "accent": "#ffb86c",
       "explanation": "Rendering measured seating comparisons and the corrected troop-carrier cabin.",
-      "x": 190,
+      "x": 230,
       "y": 490
     },
     {
@@ -73,8 +73,20 @@
       "eta": "~5 min",
       "accent": "#f8f8f2",
       "explanation": "Receiving the standalone public status page and preparing its Pages deployment.",
-      "x": 870,
+      "x": 1010,
       "y": 490
+    },
+    {
+      "id": "astra2",
+      "title": "Astra 2 · Character",
+      "kind": "ASTRA EXTRA HIGH",
+      "status": "COMPLETE",
+      "progress": 100,
+      "eta": "available",
+      "accent": "#8be9fd",
+      "explanation": "Delivered the 14,876-triangle Rigify soldier with nine aim poses and recoil, ready for runtime integration.",
+      "x": 80,
+      "y": 250
     }
   ],
   "links": [
@@ -125,6 +137,30 @@
       "bs": "top",
       "color": "#50fa7b",
       "active": true
+    },
+    {
+      "a": "sol",
+      "as": "bottom",
+      "b": "astra2",
+      "bs": "top",
+      "color": "#8be9fd",
+      "active": false
+    },
+    {
+      "a": "astra2",
+      "as": "right",
+      "b": "terra",
+      "bs": "left",
+      "color": "#8be9fd",
+      "active": false
+    },
+    {
+      "a": "astra2",
+      "as": "bottom",
+      "b": "blender",
+      "bs": "top",
+      "color": "#ffb86c",
+      "active": false
     }
   ]
 }
