@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+04:32",
-  "lastUpdated": "2026-09-09T08:18:33.6992079-05:00",
-  "summary": "Astra 3 completed seven airborne/drone assets; Astra 4 completed six behavior milestones and a passing production build.",
+  "elapsed": "+04:34",
+  "lastUpdated": "2026-09-09T08:20:12.0380958-05:00",
+  "summary": "Browser validation was waived; release acceptance now uses the production build and full-suite regression review.",
   "nodes": [
     {
       "id": "sol",
@@ -32,11 +32,11 @@
       "id": "astra4",
       "title": "Astra 4 · Behavior",
       "kind": "ASTRA LOW",
-      "status": "HANDOFF",
-      "progress": 96,
-      "eta": "browser review pending",
+      "status": "REVIEW",
+      "progress": 97,
+      "eta": "test triage pending",
       "accent": "#8be9fd",
-      "explanation": "Six milestones pass 68 focused tests and production build; full suite is 133/143 with ten documented failures.",
+      "explanation": "Six milestones and production build are green; reviewing ten full-suite failures without browser acceptance.",
       "x": 680,
       "y": 250
     },
@@ -48,7 +48,7 @@
       "progress": 72,
       "eta": "~3 min",
       "accent": "#50fa7b",
-      "explanation": "Publishing authorized queued events; the game release still awaits browser acceptance and failure review.",
+      "explanation": "Publishing authorized status events; game release awaits test-failure triage only.",
       "x": 1010,
       "y": 250
     },
