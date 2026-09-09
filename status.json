@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "+04:34",
-  "lastUpdated": "2026-09-09T08:20:12.0380958-05:00",
-  "summary": "Browser validation was waived; release acceptance now uses the production build and full-suite regression review.",
+  "elapsed": "+04:40",
+  "lastUpdated": "2026-09-09T08:28:26.4791144-05:00",
+  "summary": "Astra 4 release verification is complete; Astra 3 has seven validated airborne/drone assets ready for the next family.",
   "nodes": [
     {
       "id": "sol",
@@ -22,9 +22,9 @@
       "kind": "ASTRA LOW",
       "status": "CHECKPOINT",
       "progress": 32,
-      "eta": "next family queued",
+      "eta": "next family ready",
       "accent": "#8be9fd",
-      "explanation": "Validated seven editable airborne/drone assets and 28 renders; static first passes need later detail and animation.",
+      "explanation": "Seven airborne and drone assets passed source/export validation; naval family is next.",
       "x": 380,
       "y": 250
     },
@@ -32,11 +32,11 @@
       "id": "astra4",
       "title": "Astra 4 · Behavior",
       "kind": "ASTRA LOW",
-      "status": "REVIEW",
-      "progress": 97,
-      "eta": "test triage pending",
+      "status": "COMPLETE",
+      "progress": 100,
+      "eta": "done",
       "accent": "#8be9fd",
-      "explanation": "Six milestones and production build are green; reviewing ten full-suite failures without browser acceptance.",
+      "explanation": "Release verification passed: 68 focused tests, TypeScript, and production build; ten full-suite failures match baseline.",
       "x": 680,
       "y": 250
     },
@@ -44,11 +44,11 @@
       "id": "terra",
       "title": "Terra · Release",
       "kind": "TERRA LIGHT",
-      "status": "PUBLISHING",
-      "progress": 72,
-      "eta": "~3 min",
+      "status": "IDLE",
+      "progress": 100,
+      "eta": "ready",
       "accent": "#50fa7b",
-      "explanation": "Publishing authorized status events; game release awaits test-failure triage only.",
+      "explanation": "Status delivery is complete; no game release action is running.",
       "x": 1010,
       "y": 250
     },
@@ -68,11 +68,11 @@
       "id": "github",
       "title": "GitHub",
       "kind": "DELIVERY",
-      "status": "UPDATING",
-      "progress": 84,
-      "eta": "~3 min",
+      "status": "LIVE",
+      "progress": 100,
+      "eta": "online",
       "accent": "#f8f8f2",
-      "explanation": "Deploying the authorized Roadrunner, airborne, and behavior milestone updates.",
+      "explanation": "Serving the current validated milestones with automatic in-page refresh.",
       "x": 1010,
       "y": 490
     },
@@ -96,7 +96,7 @@
       "b": "astra3",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "sol",
@@ -104,7 +104,7 @@
       "b": "astra4",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra3",
@@ -112,7 +112,7 @@
       "b": "terra",
       "bs": "left",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra4",
@@ -120,7 +120,7 @@
       "b": "terra",
       "bs": "left",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra3",
@@ -136,7 +136,7 @@
       "b": "github",
       "bs": "top",
       "color": "#50fa7b",
-      "active": true
+      "active": false
     },
     {
       "a": "sol",
