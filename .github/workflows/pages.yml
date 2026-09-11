@@ -1,5 +1,6 @@
 name: Deploy GitHub Pages
 
+# Keep deploy triggers aligned with the files that make up the live dashboard.
 on:
   push:
     branches: [main]
