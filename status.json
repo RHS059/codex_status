@@ -1,7 +1,7 @@
 {
   "title": "CODEX STATUS",
   "elapsed": "High-poly · attempt 1",
-  "lastUpdated": "2026-09-12T17:35:00-05:00",
+  "lastUpdated": "2026-09-12T22:51:46.790Z",
   "summary": "Primitive_Final preserved from R30. Three Luna agents model high-poly parts; Astra reviews each with a two-attempt limit.",
   "nodes": [
     {
@@ -53,17 +53,39 @@
       "y": 240
     },
     {
-      "id": "blender",
-      "title": "Blender · Primitive_Final",
-      "kind": "EEVEE PREVIEW",
-      "status": "BASELINE",
+      "id": "blender0",
+      "title": "Blender · Wheels",
+      "kind": "LUNA WORKSPACE",
+      "status": "PREPARING",
       "progress": 0,
-      "eta": "high-poly pending",
+      "eta": "first render pending",
       "accent": "#ffb86c",
-      "explanation": "Preserved primitive baseline, awaiting high-poly components.",
-      "render": "assets/isv_r30_hero.png",
-      "renderAlt": "Primitive Final baseline vehicle",
-      "x": 380,
+      "explanation": "Dedicated component workspace; a reviewed component render will appear when available.",
+      "x": 70,
+      "y": 480
+    },
+    {
+      "id": "blender1",
+      "title": "Blender · Body",
+      "kind": "LUNA WORKSPACE",
+      "status": "PREPARING",
+      "progress": 0,
+      "eta": "first render pending",
+      "accent": "#ffb86c",
+      "explanation": "Dedicated component workspace; a reviewed component render will appear when available.",
+      "x": 460,
+      "y": 480
+    },
+    {
+      "id": "blender2",
+      "title": "Blender · Cabin & Frame",
+      "kind": "LUNA WORKSPACE",
+      "status": "PREPARING",
+      "progress": 0,
+      "eta": "first render pending",
+      "accent": "#ffb86c",
+      "explanation": "Dedicated component workspace; a reviewed component render will appear when available.",
+      "x": 850,
       "y": 480
     }
   ],
@@ -91,6 +113,30 @@
       "bs": "top",
       "color": "#8be9fd",
       "active": true
+    },
+    {
+      "a": "luna0",
+      "as": "bottom",
+      "b": "blender0",
+      "bs": "top",
+      "color": "#ffb86c",
+      "active": false
+    },
+    {
+      "a": "luna1",
+      "as": "bottom",
+      "b": "blender1",
+      "bs": "top",
+      "color": "#ffb86c",
+      "active": false
+    },
+    {
+      "a": "luna2",
+      "as": "bottom",
+      "b": "blender2",
+      "bs": "top",
+      "color": "#ffb86c",
+      "active": false
     }
   ]
 }
