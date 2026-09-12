@@ -1,7 +1,7 @@
 {
   "title": "CODEX STATUS",
   "elapsed": "High-poly · attempt 1",
-  "lastUpdated": "2026-09-12T23:10:47.673Z",
+  "lastUpdated": "2026-09-12T23:38:20.083Z",
   "summary": "Body attempt 1 rejected: faceted controls, block-shaped optics and incorrect dashboard review angle. Luna revises attempt 2; wheels adopt one Array and one Mirror.",
   "nodes": [
     {
@@ -89,6 +89,40 @@
       "explanation": "Dedicated component workspace; a reviewed component render will appear when available.",
       "x": 850,
       "y": 480
+    },
+    {
+      "id": "imagegen",
+      "title": "Generated Images · Latest 5",
+      "kind": "REFERENCE AIDS",
+      "status": "AVAILABLE",
+      "progress": 100,
+      "eta": "newest first",
+      "accent": "#ff79c6",
+      "explanation": "Photo-derived references; original photographs remain authoritative.",
+      "images": [
+        {
+          "src": "assets/generated/exec-2738fb0f-1d45-427a-9802-96261a578c69.webp",
+          "alt": "Dashboard and seat reference aid"
+        },
+        {
+          "src": "assets/generated/exec-155d0f19-8643-4dab-ad76-7ce56abd7e2f.webp",
+          "alt": "Wheel and tire reference aid"
+        },
+        {
+          "src": "assets/generated/exec-a10c3050-f0fd-475e-b270-f75c4af87679.webp",
+          "alt": "Earlier generated reference 3"
+        },
+        {
+          "src": "assets/generated/exec-a77ebd2d-0bf4-4f18-9279-1cd2238859e3.webp",
+          "alt": "Earlier generated reference 4"
+        },
+        {
+          "src": "assets/generated/exec-c0bc0ab3-bbee-42b7-bf0a-c4c1eb4ff719.webp",
+          "alt": "Earlier generated reference 5"
+        }
+      ],
+      "x": 1150,
+      "y": 30
     }
   ],
   "links": [
@@ -138,6 +172,14 @@
       "b": "blender2",
       "bs": "top",
       "color": "#ffb86c",
+      "active": false
+    },
+    {
+      "a": "astra",
+      "as": "right",
+      "b": "imagegen",
+      "bs": "left",
+      "color": "#ff79c6",
       "active": false
     }
   ]
