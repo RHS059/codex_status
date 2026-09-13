@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "High-poly · master accepted",
-  "lastUpdated": "2026-09-13T05:20:00.000Z",
-  "summary": "High-poly master complete. All accepted components remain editable, Primitive_Final is hidden and unchanged, and seven Eevee validation views passed review.",
+  "elapsed": "High-poly · structural correction",
+  "lastUpdated": "2026-09-13T05:42:00.000Z",
+  "summary": "Master review exposed floating seat support and detached-looking upholstery seams. Two Astra Low lanes are rebuilding continuous seat cloth and the occupant floor/load paths before reassembly.",
   "nodes": [
     {
       "id": "astra",
@@ -68,12 +68,36 @@
       "id": "luna4",
       "title": "Astra Low · Master",
       "kind": "MCP ASSEMBLER",
-      "status": "ACCEPTED",
+      "status": "REVISION REQUIRED",
       "progress": 100,
-      "eta": "complete",
+      "eta": "awaiting structural fixes",
       "accent": "#8be9fd",
       "explanation": "Combines only accepted components and validates every interface in one editable high-poly source.",
       "x": 1630,
+      "y": 240
+    },
+    {
+      "id": "luna5",
+      "title": "Astra Low · Seat Cloth",
+      "kind": "MCP MODELER",
+      "status": "BUILDING",
+      "progress": 22,
+      "eta": "cloth proofs pending",
+      "accent": "#8be9fd",
+      "explanation": "Rebuilds continuous upholstered cushions and removes detached-looking seam geometry.",
+      "x": 2020,
+      "y": 240
+    },
+    {
+      "id": "luna6",
+      "title": "Astra Low · Floor",
+      "kind": "MCP MODELER",
+      "status": "BUILDING",
+      "progress": 20,
+      "eta": "structural proofs pending",
+      "accent": "#8be9fd",
+      "explanation": "Builds the continuous floor pan, crossmembers, seat rails and visible chassis load paths.",
+      "x": 2410,
       "y": 240
     },
     {
@@ -136,15 +160,43 @@
       "id": "blender4",
       "title": "Blender · Master",
       "kind": "MCP WORKSPACE",
-      "status": "ACCEPTED",
+      "status": "REVISION REQUIRED",
       "progress": 100,
-      "eta": "complete",
+      "eta": "awaiting structural fixes",
       "accent": "#ffb86c",
       "explanation": "Accepted editable sources assembled; clearances, landmarks and primitive replacement validated.",
       "x": 1630,
       "y": 480,
       "render": "assets/master_rts_hero.png",
       "renderAlt": "Accepted high-poly ISV master assembly in RTS hero view"
+    },
+    {
+      "id": "blender5",
+      "title": "Blender · Seat Cloth",
+      "kind": "MCP WORKSPACE",
+      "status": "BUILDING",
+      "progress": 22,
+      "eta": "close renders pending",
+      "accent": "#ffb86c",
+      "explanation": "Dedicated upholstery workspace using accepted seat transforms.",
+      "x": 2020,
+      "y": 480,
+      "render": "assets/cockpit_submission2.png",
+      "renderAlt": "Previous seat appearance retained until corrected cloth proofs arrive"
+    },
+    {
+      "id": "blender6",
+      "title": "Blender · Floor",
+      "kind": "MCP WORKSPACE",
+      "status": "BUILDING",
+      "progress": 20,
+      "eta": "orthos pending",
+      "accent": "#ffb86c",
+      "explanation": "Dedicated floor and seat-support workspace with required underside proof.",
+      "x": 2410,
+      "y": 480,
+      "render": "assets/master_rts_hero.png",
+      "renderAlt": "Master requiring continuous floor and seat support correction"
     },
     {
       "id": "imagegen",
@@ -189,6 +241,22 @@
       "bs": "top",
       "color": "#8be9fd",
       "active": false
+    },
+    {
+      "a": "astra",
+      "as": "bottom",
+      "b": "luna5",
+      "bs": "top",
+      "color": "#8be9fd",
+      "active": true
+    },
+    {
+      "a": "astra",
+      "as": "bottom",
+      "b": "luna6",
+      "bs": "top",
+      "color": "#8be9fd",
+      "active": true
     },
     {
       "a": "astra",
@@ -261,6 +329,22 @@
       "bs": "top",
       "color": "#ffb86c",
       "active": false
+    },
+    {
+      "a": "luna5",
+      "as": "bottom",
+      "b": "blender5",
+      "bs": "top",
+      "color": "#ffb86c",
+      "active": true
+    },
+    {
+      "a": "luna6",
+      "as": "bottom",
+      "b": "blender6",
+      "bs": "top",
+      "color": "#ffb86c",
+      "active": true
     },
     {
       "a": "astra",
