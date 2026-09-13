@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
   "elapsed": "High-poly · final component attempts",
-  "lastUpdated": "2026-09-13T02:06:03.088Z",
-  "summary": "All first Astra submissions were visually rejected below the FPS-quality bar. Three Astra Low lanes are active on their final component passes through Blender MCP.",
+  "lastUpdated": "2026-09-13T02:22:48.663Z",
+  "summary": "Astra wheel pass accepted with live circumference tread Array plus Curve and separate vehicle Array plus Mirror. Body and cabin final passes remain active through Blender MCP.",
   "nodes": [
     {
       "id": "astra",
@@ -20,9 +20,9 @@
       "id": "luna0",
       "title": "Astra Low · Wheels",
       "kind": "MCP MODELER",
-      "status": "REVISING",
-      "progress": 35,
-      "eta": "attempt 2",
+      "status": "ACCEPTED",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#8be9fd",
       "explanation": "Builds a reusable tread module with live Array and Curve around the tire circumference.",
       "x": 70,
@@ -56,13 +56,15 @@
       "id": "blender0",
       "title": "Blender · Wheels",
       "kind": "MCP WORKSPACE",
-      "status": "MODELING",
-      "progress": 35,
-      "eta": "final render pending",
+      "status": "ACCEPTED",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#ffb86c",
-      "explanation": "Dedicated component workspace; a reviewed component render will appear when available.",
+      "explanation": "Accepted tread Array plus Curve and wheel assembly Array plus Mirror.",
       "x": 70,
-      "y": 480
+      "y": 480,
+      "render": "assets/wheels_astra_attempt2.png",
+      "renderAlt": "Accepted Astra high-poly wheel and tire close render"
     },
     {
       "id": "blender1",
