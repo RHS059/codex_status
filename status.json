@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "High-poly · attempt 1",
-  "lastUpdated": "2026-09-12T23:38:20.083Z",
-  "summary": "Body attempt 1 rejected: faceted controls, block-shaped optics and incorrect dashboard review angle. Luna revises attempt 2; wheels adopt one Array and one Mirror.",
+  "elapsed": "High-poly · MCP transition",
+  "lastUpdated": "2026-09-13T00:22:36.248Z",
+  "summary": "bpy-dev Blender MCP is registered and smoke-tested against Primitive_Final. Three Astra Low modeling lanes replace Luna and rebuild rejected components through MCP.",
   "nodes": [
     {
       "id": "astra",
@@ -18,11 +18,11 @@
     },
     {
       "id": "luna0",
-      "title": "Luna · Wheels",
-      "kind": "MODELER",
-      "status": "MODELING",
+      "title": "Astra Low · Wheels",
+      "kind": "MCP MODELER",
+      "status": "REBUILDING",
       "progress": 5,
-      "eta": "attempt 1 · estimate pending",
+      "eta": "attempt 2",
       "accent": "#8be9fd",
       "explanation": "Rebuilds tire carcass, tread, rim recesses and hardware.",
       "x": 70,
@@ -30,23 +30,23 @@
     },
     {
       "id": "luna1",
-      "title": "Luna · Body",
-      "kind": "MODELER",
-      "status": "REVISING",
+      "title": "Astra Low · Body",
+      "kind": "MCP MODELER",
+      "status": "REBUILDING",
       "progress": 5,
       "eta": "attempt 2",
       "accent": "#8be9fd",
-      "explanation": "Correcting curved controls, recessed optics, duplicate lights and dashboard evidence.",
+      "explanation": "Rebuilds the rejected body and dashboard from Primitive_Final through Blender MCP.",
       "x": 460,
       "y": 240
     },
     {
       "id": "luna2",
-      "title": "Luna · Cabin & Frame",
-      "kind": "MODELER",
-      "status": "MODELING",
+      "title": "Astra Low · Cabin & Frame",
+      "kind": "MCP MODELER",
+      "status": "REBUILDING",
       "progress": 5,
-      "eta": "attempt 1 · estimate pending",
+      "eta": "attempt 2",
       "accent": "#8be9fd",
       "explanation": "Models upholstery, belts, cage joints and suspension.",
       "x": 850,
@@ -55,8 +55,8 @@
     {
       "id": "blender0",
       "title": "Blender · Wheels",
-      "kind": "LUNA WORKSPACE",
-      "status": "MODELING",
+      "kind": "MCP WORKSPACE",
+      "status": "CONNECTED",
       "progress": 0,
       "eta": "first render pending",
       "accent": "#ffb86c",
@@ -67,10 +67,10 @@
     {
       "id": "blender1",
       "title": "Blender · Body",
-      "kind": "LUNA WORKSPACE",
+      "kind": "MCP WORKSPACE",
       "status": "REJECTED",
       "progress": 0,
-      "eta": "attempt 2 pending",
+      "eta": "Astra rebuild pending",
       "accent": "#ffb86c",
       "explanation": "Dedicated component workspace; a reviewed component render will appear when available.",
       "x": 460,
@@ -81,8 +81,8 @@
     {
       "id": "blender2",
       "title": "Blender · Cabin & Frame",
-      "kind": "LUNA WORKSPACE",
-      "status": "MODELING",
+      "kind": "MCP WORKSPACE",
+      "status": "CONNECTED",
       "progress": 0,
       "eta": "first render pending",
       "accent": "#ffb86c",
@@ -156,7 +156,7 @@
       "b": "blender0",
       "bs": "top",
       "color": "#ffb86c",
-      "active": false
+      "active": true
     },
     {
       "a": "luna1",
@@ -164,7 +164,7 @@
       "b": "blender1",
       "bs": "top",
       "color": "#ffb86c",
-      "active": false
+      "active": true
     },
     {
       "a": "luna2",
@@ -172,7 +172,7 @@
       "b": "blender2",
       "bs": "top",
       "color": "#ffb86c",
-      "active": false
+      "active": true
     },
     {
       "a": "astra",
