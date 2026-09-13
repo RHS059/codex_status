@@ -2,7 +2,7 @@
   "title": "CODEX STATUS",
   "elapsed": "High-poly lock + low-poly production",
   "lastUpdated": "2026-09-13T15:30:00.000Z",
-  "summary": "Astra Low is repairing and freezing the grille while separate Blender workspaces build the low-poly structural shell and repeated modules. UV integration and 18-map baking follow QA acceptance.",
+  "summary": "High-poly final is checksum-verified and locked after the grille rear return was physically connected. Separate Blender workspaces are building the low-poly structural shell and repeated modules; UV integration and 18-map baking follow QA acceptance.",
   "nodes": [
     {
       "id": "astra",
@@ -20,9 +20,9 @@
       "id": "luna0",
       "title": "Astra Low · Grille Lock",
       "kind": "MCP MODELER",
-      "status": "MODELING",
-      "progress": 20,
-      "eta": "proof renders next",
+      "status": "ACCEPTED + LOCKED",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#8be9fd",
       "explanation": "Repairs the incomplete grille frame and freezes the corrected high-poly baseline.",
       "x": 70,
@@ -104,15 +104,15 @@
       "id": "blender0",
       "title": "Blender · Grille Lock",
       "kind": "MCP WORKSPACE",
-      "status": "ACTIVE",
-      "progress": 20,
-      "eta": "contact audit",
+      "status": "LOCKED",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#ffb86c",
-      "explanation": "High-poly grille continuity repair and preservation checks.",
+      "explanation": "Verified continuous grille support; immutable high-poly bake source is locked.",
       "x": 70,
       "y": 480,
-      "render": "assets/wheels_astra_attempt2.png",
-      "renderAlt": "Accepted Astra high-poly wheel and tire close render"
+      "render": "assets/high_poly_final_grille.png",
+      "renderAlt": "Accepted high-poly grille with continuous rear support"
     },
     {
       "id": "blender1",
