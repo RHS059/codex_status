@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "High-poly · final component attempts",
-  "lastUpdated": "2026-09-13T03:14:20.552Z",
-  "summary": "Wheels accepted. Fresh body and cabin submissions were visually rejected; both Astra Low replacements are active on final component-by-component attempts through Blender MCP.",
+  "elapsed": "High-poly · three live component lanes",
+  "lastUpdated": "2026-09-13T04:05:00.000Z",
+  "summary": "Wheels and cabin frame are accepted. Exterior and cockpit are on final refinement attempts; a fresh mechanical chassis build is active through Blender MCP.",
   "nodes": [
     {
       "id": "astra",
@@ -30,26 +30,38 @@
     },
     {
       "id": "luna1",
-      "title": "Astra Low · Body",
+      "title": "Astra Low · Exterior",
       "kind": "MCP MODELER",
       "status": "REVISING",
-      "progress": 45,
+      "progress": 72,
       "eta": "final attempt",
       "accent": "#8be9fd",
-      "explanation": "Fresh agent traces exterior and cockpit landmarks before rebuilding from Primitive_Final.",
+      "explanation": "Refines the photographed hood crown, nose taper, fenders, lamps and recovery hardware.",
       "x": 460,
       "y": 240
     },
     {
       "id": "luna2",
-      "title": "Astra Low · Cabin & Frame",
+      "title": "Astra Low · Cockpit",
       "kind": "MCP MODELER",
       "status": "REVISING",
-      "progress": 40,
+      "progress": 70,
       "eta": "final attempt",
       "accent": "#8be9fd",
-      "explanation": "Fresh agent rebuilds welded cage junctions, coherent underbody, seats and alpha net.",
+      "explanation": "Refines the dashboard shell, instrument binnacle, steering wheel and center controls.",
       "x": 850,
+      "y": 240
+    },
+    {
+      "id": "luna3",
+      "title": "Astra Low · Mechanical",
+      "kind": "MCP MODELER",
+      "status": "BUILDING",
+      "progress": 55,
+      "eta": "first review pending",
+      "accent": "#8be9fd",
+      "explanation": "Builds separate suspension, driveline, exhaust, skid and mounting assemblies with real clearance.",
+      "x": 1240,
       "y": 240
     },
     {
@@ -68,31 +80,45 @@
     },
     {
       "id": "blender1",
-      "title": "Blender · Body",
+      "title": "Blender · Exterior",
       "kind": "MCP WORKSPACE",
       "status": "COMPONENT PASS",
-      "progress": 45,
+      "progress": 72,
       "eta": "final proofs pending",
       "accent": "#ffb86c",
-      "explanation": "Dedicated component workspace; a reviewed component render will appear when available.",
+      "explanation": "Submission one reviewed; final surface and silhouette corrections are underway.",
       "x": 460,
       "y": 480,
-      "render": "assets/body_restart_attempt1_rejected.png",
-      "renderAlt": "Rejected fresh body attempt one; component-by-component final pass active"
+      "render": "assets/exterior_submission1.png",
+      "renderAlt": "Exterior submission one, now receiving final silhouette refinements"
     },
     {
       "id": "blender2",
-      "title": "Blender · Cabin & Frame",
+      "title": "Blender · Cockpit",
       "kind": "MCP WORKSPACE",
       "status": "COMPONENT PASS",
-      "progress": 40,
+      "progress": 70,
       "eta": "final proofs pending",
       "accent": "#ffb86c",
-      "explanation": "Dedicated component workspace; a reviewed component render will appear when available.",
+      "explanation": "Submission one reviewed; final photo-matched cockpit refinements are underway.",
       "x": 850,
       "y": 480,
+      "render": "assets/cockpit_submission1.png",
+      "renderAlt": "Cockpit submission one, now receiving final photo-matched refinements"
+    },
+    {
+      "id": "blender3",
+      "title": "Blender · Mechanical",
+      "kind": "MCP WORKSPACE",
+      "status": "BUILDING",
+      "progress": 55,
+      "eta": "first proofs pending",
+      "accent": "#ffb86c",
+      "explanation": "Fresh decomposed chassis workspace is actively rendering underside assemblies.",
+      "x": 1240,
+      "y": 480,
       "render": "assets/cabin_restart_attempt1_rejected.png",
-      "renderAlt": "Rejected fresh cabin attempt one; component-by-component final pass active"
+      "renderAlt": "Previous schematic underside retained until the fresh mechanical proof arrives"
     },
     {
       "id": "imagegen",
@@ -141,6 +167,14 @@
     {
       "a": "astra",
       "as": "bottom",
+      "b": "luna3",
+      "bs": "top",
+      "color": "#8be9fd",
+      "active": true
+    },
+    {
+      "a": "astra",
+      "as": "bottom",
       "b": "luna1",
       "bs": "top",
       "color": "#8be9fd",
@@ -174,6 +208,14 @@
       "a": "luna2",
       "as": "bottom",
       "b": "blender2",
+      "bs": "top",
+      "color": "#ffb86c",
+      "active": true
+    },
+    {
+      "a": "luna3",
+      "as": "bottom",
+      "b": "blender3",
       "bs": "top",
       "color": "#ffb86c",
       "active": true
