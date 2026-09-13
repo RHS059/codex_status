@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "High-poly · structural correction",
-  "lastUpdated": "2026-09-13T05:42:00.000Z",
-  "summary": "Master review exposed floating seat support and detached-looking upholstery seams. Two Astra Low lanes are rebuilding continuous seat cloth and the occupant floor/load paths before reassembly.",
+  "elapsed": "High-poly · corrected master assembly",
+  "lastUpdated": "2026-09-13T06:18:00.000Z",
+  "summary": "Seat cloth, floor/load paths, cage mounts, rear-bumper supports and engine-bay sightlines are corrected. Astra Low is assembling the final master and rendering neutral plus high-contrast orthos.",
   "nodes": [
     {
       "id": "astra",
@@ -68,11 +68,11 @@
       "id": "luna4",
       "title": "Astra Low · Master",
       "kind": "MCP ASSEMBLER",
-      "status": "REVISION REQUIRED",
-      "progress": 100,
-      "eta": "awaiting structural fixes",
+      "status": "ASSEMBLING R2",
+      "progress": 52,
+      "eta": "orthographic review pending",
       "accent": "#8be9fd",
-      "explanation": "Combines only accepted components and validates every interface in one editable high-poly source.",
+      "explanation": "Integrates corrected cloth, floor, cage mounts, rear supports and engine-bay massing.",
       "x": 1630,
       "y": 240
     },
@@ -80,9 +80,9 @@
       "id": "luna5",
       "title": "Astra Low · Seat Cloth",
       "kind": "MCP MODELER",
-      "status": "BUILDING",
-      "progress": 22,
-      "eta": "cloth proofs pending",
+      "status": "ACCEPTED",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#8be9fd",
       "explanation": "Rebuilds continuous upholstered cushions and removes detached-looking seam geometry.",
       "x": 2020,
@@ -92,9 +92,9 @@
       "id": "luna6",
       "title": "Astra Low · Floor",
       "kind": "MCP MODELER",
-      "status": "BUILDING",
-      "progress": 20,
-      "eta": "structural proofs pending",
+      "status": "ACCEPTED",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#8be9fd",
       "explanation": "Builds the continuous floor pan, crossmembers, seat rails and visible chassis load paths.",
       "x": 2410,
@@ -160,11 +160,11 @@
       "id": "blender4",
       "title": "Blender · Master",
       "kind": "MCP WORKSPACE",
-      "status": "REVISION REQUIRED",
-      "progress": 100,
-      "eta": "awaiting structural fixes",
+      "status": "ASSEMBLING R2",
+      "progress": 52,
+      "eta": "orthos rendering",
       "accent": "#ffb86c",
-      "explanation": "Accepted editable sources assembled; clearances, landmarks and primitive replacement validated.",
+      "explanation": "Corrected editable sources are being assembled and inspected against contrast backgrounds.",
       "x": 1630,
       "y": 480,
       "render": "assets/master_rts_hero.png",
@@ -174,29 +174,29 @@
       "id": "blender5",
       "title": "Blender · Seat Cloth",
       "kind": "MCP WORKSPACE",
-      "status": "BUILDING",
-      "progress": 22,
-      "eta": "close renders pending",
+      "status": "ACCEPTED",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#ffb86c",
       "explanation": "Dedicated upholstery workspace using accepted seat transforms.",
       "x": 2020,
       "y": 480,
-      "render": "assets/cockpit_submission2.png",
-      "renderAlt": "Previous seat appearance retained until corrected cloth proofs arrive"
+      "render": "assets/seat_cloth_r2.png",
+      "renderAlt": "Accepted continuous upholstered seat cloth and supporting frame"
     },
     {
       "id": "blender6",
       "title": "Blender · Floor",
       "kind": "MCP WORKSPACE",
-      "status": "BUILDING",
-      "progress": 20,
-      "eta": "orthos pending",
+      "status": "ACCEPTED",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#ffb86c",
       "explanation": "Dedicated floor and seat-support workspace with required underside proof.",
       "x": 2410,
       "y": 480,
-      "render": "assets/master_rts_hero.png",
-      "renderAlt": "Master requiring continuous floor and seat support correction"
+      "render": "assets/floor_structure.png",
+      "renderAlt": "Accepted floor pan and connected seat load paths on magenta proof background"
     },
     {
       "id": "imagegen",
@@ -248,7 +248,7 @@
       "b": "luna5",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra",
@@ -256,7 +256,7 @@
       "b": "luna6",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra",
@@ -264,7 +264,7 @@
       "b": "luna4",
       "bs": "top",
       "color": "#8be9fd",
-      "active": false
+      "active": true
     },
     {
       "a": "astra",
@@ -328,7 +328,7 @@
       "b": "blender4",
       "bs": "top",
       "color": "#ffb86c",
-      "active": false
+      "active": true
     },
     {
       "a": "luna5",
@@ -336,7 +336,7 @@
       "b": "blender5",
       "bs": "top",
       "color": "#ffb86c",
-      "active": true
+      "active": false
     },
     {
       "a": "luna6",
@@ -344,7 +344,7 @@
       "b": "blender6",
       "bs": "top",
       "color": "#ffb86c",
-      "active": true
+      "active": false
     },
     {
       "a": "astra",
