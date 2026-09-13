@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "High-poly · final assembly beginning",
-  "lastUpdated": "2026-09-13T04:35:00.000Z",
-  "summary": "All component lanes are accepted. The master assembly is active, combining editable sources and checking interfaces, clearances and primitive replacement.",
+  "elapsed": "High-poly · master accepted",
+  "lastUpdated": "2026-09-13T05:20:00.000Z",
+  "summary": "High-poly master complete. All accepted components remain editable, Primitive_Final is hidden and unchanged, and seven Eevee validation views passed review.",
   "nodes": [
     {
       "id": "astra",
@@ -68,9 +68,9 @@
       "id": "luna4",
       "title": "Astra Low · Master",
       "kind": "MCP ASSEMBLER",
-      "status": "ASSEMBLING",
-      "progress": 38,
-      "eta": "assembly proofs pending",
+      "status": "ACCEPTED",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#8be9fd",
       "explanation": "Combines only accepted components and validates every interface in one editable high-poly source.",
       "x": 1630,
@@ -136,15 +136,15 @@
       "id": "blender4",
       "title": "Blender · Master",
       "kind": "MCP WORKSPACE",
-      "status": "ASSEMBLING",
-      "progress": 38,
-      "eta": "assembly proofs pending",
+      "status": "ACCEPTED",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#ffb86c",
-      "explanation": "Accepted sources are being appended without flattening their editable component structure.",
+      "explanation": "Accepted editable sources assembled; clearances, landmarks and primitive replacement validated.",
       "x": 1630,
       "y": 480,
-      "render": "assets/exterior_submission2.png",
-      "renderAlt": "Latest accepted exterior until the first master assembly render"
+      "render": "assets/master_rts_hero.png",
+      "renderAlt": "Accepted high-poly ISV master assembly in RTS hero view"
     },
     {
       "id": "imagegen",
@@ -188,7 +188,7 @@
       "b": "luna0",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra",
@@ -196,7 +196,7 @@
       "b": "luna4",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra",
@@ -204,7 +204,7 @@
       "b": "luna3",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra",
@@ -212,7 +212,7 @@
       "b": "luna1",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra",
@@ -220,7 +220,7 @@
       "b": "luna2",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "luna0",
@@ -228,7 +228,7 @@
       "b": "blender0",
       "bs": "top",
       "color": "#ffb86c",
-      "active": true
+      "active": false
     },
     {
       "a": "luna1",
@@ -236,7 +236,7 @@
       "b": "blender1",
       "bs": "top",
       "color": "#ffb86c",
-      "active": true
+      "active": false
     },
     {
       "a": "luna2",
@@ -244,7 +244,7 @@
       "b": "blender2",
       "bs": "top",
       "color": "#ffb86c",
-      "active": true
+      "active": false
     },
     {
       "a": "luna3",
@@ -252,7 +252,7 @@
       "b": "blender3",
       "bs": "top",
       "color": "#ffb86c",
-      "active": true
+      "active": false
     },
     {
       "a": "luna4",
@@ -260,7 +260,7 @@
       "b": "blender4",
       "bs": "top",
       "color": "#ffb86c",
-      "active": true
+      "active": false
     },
     {
       "a": "astra",
