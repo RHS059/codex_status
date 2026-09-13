@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "High-poly · corrected master assembly",
-  "lastUpdated": "2026-09-13T06:18:00.000Z",
-  "summary": "Seat cloth, floor/load paths, cage mounts, rear-bumper supports and engine-bay sightlines are corrected. Astra Low is assembling the final master and rendering neutral plus high-contrast orthos.",
+  "elapsed": "High-poly · corrected master complete",
+  "lastUpdated": "2026-09-13T06:34:00.000Z",
+  "summary": "Corrected high-poly master complete: continuous upholstery, 36 supported seat feet, eight connected cage mounts, mounted rear bumper, occupied engine bay and nineteen reviewed Eevee views.",
   "nodes": [
     {
       "id": "astra",
@@ -68,9 +68,9 @@
       "id": "luna4",
       "title": "Astra Low · Master",
       "kind": "MCP ASSEMBLER",
-      "status": "ASSEMBLING R2",
-      "progress": 52,
-      "eta": "orthographic review pending",
+      "status": "ACCEPTED R2",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#8be9fd",
       "explanation": "Integrates corrected cloth, floor, cage mounts, rear supports and engine-bay massing.",
       "x": 1630,
@@ -160,15 +160,15 @@
       "id": "blender4",
       "title": "Blender · Master",
       "kind": "MCP WORKSPACE",
-      "status": "ASSEMBLING R2",
-      "progress": 52,
-      "eta": "orthos rendering",
+      "status": "ACCEPTED R2",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#ffb86c",
-      "explanation": "Corrected editable sources are being assembled and inspected against contrast backgrounds.",
+      "explanation": "Corrected editable sources assembled and verified with neutral and high-contrast orthos.",
       "x": 1630,
       "y": 480,
-      "render": "assets/master_rts_hero.png",
-      "renderAlt": "Accepted high-poly ISV master assembly in RTS hero view"
+      "render": "assets/master_r2_rts.png",
+      "renderAlt": "Corrected final high-poly ISV with supported seats, floor, mounts and engine-bay massing"
     },
     {
       "id": "blender5",
@@ -264,7 +264,7 @@
       "b": "luna4",
       "bs": "top",
       "color": "#8be9fd",
-      "active": true
+      "active": false
     },
     {
       "a": "astra",
@@ -328,7 +328,7 @@
       "b": "blender4",
       "bs": "top",
       "color": "#ffb86c",
-      "active": true
+      "active": false
     },
     {
       "a": "luna5",
