@@ -1,8 +1,8 @@
 {
   "title": "CODEX STATUS",
-  "elapsed": "Low-poly integration + 18-map bake",
-  "lastUpdated": "2026-09-13T15:30:00.000Z",
-  "summary": "High-poly final is locked. Three accepted low-poly modules total 29,860 evaluated vertices; Astra Low is assembling, UV-packing and baking six 4K normal, AO and cavity/edge texture sets.",
+  "elapsed": "Low-poly delivery complete · stress defects documented",
+  "lastUpdated": "2026-09-14T13:20:15.000Z",
+  "summary": "Astra Low delivered a 29,784-vertex asset with six materials and eighteen verified 4K maps. UV, padding, density, integrity and reopen checks pass; enlarged wheel-hub and seat-bevel views still reveal projection transitions.",
   "nodes": [
     {
       "id": "astra",
@@ -68,11 +68,11 @@
       "id": "luna4",
       "title": "Astra Low · Integrate/Bake",
       "kind": "MCP ASSEMBLER",
-      "status": "ASSEMBLING",
-      "progress": 5,
-      "eta": "UV then bake",
+      "status": "DELIVERED WITH NOTES",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#8be9fd",
-      "explanation": "Assembles 29,860 vertices, packs six UV sets and produces 18 verified 4K maps.",
+      "explanation": "Delivered 29,784 vertices and 18 maps; stress-view projection defects are documented.",
       "x": 1630,
       "y": 240
     },
@@ -160,15 +160,15 @@
       "id": "blender4",
       "title": "Blender · LP Final",
       "kind": "MCP WORKSPACE",
-      "status": "ACTIVE",
-      "progress": 5,
-      "eta": "UV then bake",
+      "status": "DELIVERED WITH NOTES",
+      "progress": 100,
+      "eta": "complete",
       "accent": "#ffb86c",
-      "explanation": "Final low-poly assembly, six UV groups, eighteen-map bake and material verification.",
+      "explanation": "Final baked asset passes technical checks with visible wheel-hub and seat-bevel limits.",
       "x": 1630,
       "y": 480,
-      "render": "assets/master_r2_rts.png",
-      "renderAlt": "Corrected final high-poly ISV with supported seats, floor, mounts and engine-bay massing"
+      "render": "assets/lowpoly_final_hero.png",
+      "renderAlt": "Final low-poly ISV hero render with six baked material sets"
     },
     {
       "id": "blender5",
